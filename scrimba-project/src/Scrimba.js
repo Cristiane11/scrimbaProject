@@ -1,5 +1,4 @@
 import React from 'react'
-import React from 'react'
 import ReactDOM from 'react-dom'
 const { useState, useEffect, useRef } = React;
 const clientID = "t-FQWYk2PUt13LidWIblzu7SNd9HVOQsK3QA7Lg1Mg4";
@@ -17,7 +16,7 @@ const loadData = (options) => {
     })
 }
 
-const App = (props) => {
+const Scrimba = (props) => {
   let [photos, setPhotos] = useState([]);
   
   // CHALLENGE:
@@ -78,3 +77,5 @@ const App = (props) => {
     </div>
   );
 };
+
+export default Scrimba;

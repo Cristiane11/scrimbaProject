@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App name="Cristiane Abreu" emoji="🎉" />
+    <App name="Cristiane Abreu" emoji="🍁" />
   </React.StrictMode>,
   document.getElementById('root')
 );
